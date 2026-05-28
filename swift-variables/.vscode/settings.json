@@ -1,0 +1,8 @@
+{
+    "[swift]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "swiftlang.swift-vscode"
+    },
+    "swift.format.enable": true,
+    "swift.format.path": "/home/zain/.local/share/swiftly/bin/swift-format"
+}

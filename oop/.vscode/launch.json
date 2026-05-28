@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Debug Swift",
+            "target": "${workspaceFolderBasename}",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug ${workspaceFolderBasename}"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "name": "Release Swift",
+            "target": "${workspaceFolderBasename}",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release ${workspaceFolderBasename}"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:oop}",
+            "name": "Debug oop",
+            "target": "oop",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug oop"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:oop}",
+            "name": "Release oop",
+            "target": "oop",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release oop"
+        }
+    ]
+}

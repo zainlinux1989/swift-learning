@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-variables}",
+            "name": "Debug swift-variables",
+            "target": "swift-variables",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug swift-variables",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-variables}",
+            "name": "Release swift-variables",
+            "target": "swift-variables",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release swift-variables",
+            "console": "integratedTerminal"
+        }
+    ]
+}
