@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TextView: View {
-    var text: String
+    var text: LocalizedStringKey
     @State var color: Color
     var colors: [Color] = [
         .red, .green, .purple, .orange, .yellow, .purple,

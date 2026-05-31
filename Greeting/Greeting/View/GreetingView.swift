@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GreetingView: View {
     var body: some View {
         ZStack {
             BackgroundView()
@@ -23,5 +23,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    GreetingView()
 }

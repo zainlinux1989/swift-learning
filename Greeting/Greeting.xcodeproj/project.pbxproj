@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		BF40D3862FCB7C2700888A1C /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF40D3852FCB7C2700888A1C /* TextView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		BF40D3752FCB660C00888A1C /* Greeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF40D3852FCB7C2700888A1C /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextView.swift; path = Greeting/TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,9 +32,8 @@
 		BF40D36C2FCB660C00888A1C = {
 			isa = PBXGroup;
 			children = (
-				BF40D3852FCB7C2700888A1C /* TextView.swift */,
-				BF40D3772FCB660C00888A1C /* Greeting */,
 				BF40D3762FCB660C00888A1C /* Products */,
+				BF40D3772FCB660C00888A1C /* Greeting */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +91,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-US",
 			);
 			mainGroup = BF40D36C2FCB660C00888A1C;
 			minimizedProjectReferenceProxies = 1;
@@ -125,7 +120,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF40D3862FCB7C2700888A1C /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +184,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -245,6 +240,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};

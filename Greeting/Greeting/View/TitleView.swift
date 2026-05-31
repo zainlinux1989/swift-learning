@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct TitleView: View {
-    private let title = "Greetings"
-    private let subTitles = [
+    private let title: LocalizedStringKey = "Greetings"
+    private let subTitles: [LocalizedStringKey] = [
         "A quest for knowledge", "Swift is awesome!", "Programming recipes", "Exploring iOS Programming",
         "Learn how to bake a cake!",
     ]
-    @State private var subtitle = "A quest for knowledge"
+    @State private var subtitle:LocalizedStringKey = "A quest for knowledge"
 
     let lineWidth: CGFloat = 15
     let circleSize: CGFloat = 70
@@ -32,7 +32,7 @@ struct TitleView: View {
                 Text(title).font(.largeTitle).fontWeight(.semibold)
                 Text(subtitle).font(.headline).fontWeight(.thin)
             }.onTapGesture {
-                subtitle = subTitles.randomElement() ?? "Hello"
+                subtitle = subTitles.randomElement() ?? LocalizedStringKey("A quest for knowledge")
             }
             Spacer()
             Circle().strokeBorder(
